@@ -24,6 +24,8 @@ namespace Assignment_2.Controllers
 
 
         [HttpPost]
+
+
         public string GetPoints(List<int> lstInt)
         {
             List<int> lstScores = new List<int>();
